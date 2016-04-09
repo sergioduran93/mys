@@ -1,0 +1,270 @@
+2015-05-19 13:45:21 LogName: Array
+(
+    [0] => Array
+        (
+            [Venta] => Array
+                (
+                    [id] => 3
+                    [usuario_escan] => 
+                    [fecha_escan] => 
+                    [oficina] => 1
+                    [remesa] => 11-3
+                    [facturacion] => 
+                    [documento1] => 123132
+                    [documento2] => 
+                    [documento3] => 
+                    [tipo] => Factura
+                    [cliente] => 157
+                    [remitente] => 
+                    [destinatario] => 
+                    [contacto] => 
+                    [contacto_tel] => 
+                    [origen] => 1
+                    [destino] => 1
+                    [imagen] => 
+                    [firmado] => Si
+                    [observaciones] => 
+                    [contenido] => CUADERNOS
+                    [fecha] => 2015-03-02
+                    [hora] => 16:17:48
+                    [declarado] => 500000
+                    [empaque_info] => {"barras":["",""],"empaques":["3","2"],"cantidad":["5","2"],"largo":["200","200"],"ancho":["100","100"],"alto":["100","100"],"peso":["50","20"],"pesoVol":["4000","1600"],"valor":["2700","1900"],"kiloAd":["10","5"],"subtotal":null}
+                    [kilo_adic] => 5540
+                    [valor_kilo_adic] => 831000
+                    [desc_flete] => 1730
+                    [desc_kilo] => 124650
+                    [valor_seguro] => 
+                    [valor_devolucion] => 
+                    [valor_total] => 722820
+                    [kilo_nego] => 60
+                    [usuario] => 2
+                    [recaudador] => 
+                    [otro_remi] => 
+                    [faxDest] => 
+                    [emailDest] => 
+                    [telefono2Dest] => 
+                    [telefonoDest] => 32023112131
+                    [direccionDest] => Cra 45 # 45 - 45
+                    [nombreDest] => Luis Lozano Marin
+                    [documentoDest] => 132486431021
+                    [emailRemi] => mgt@gmail.com
+                    [celularRemi] => 3001234567
+                    [telefonoRemi] => 
+                    [direccionRemi] => Cll 43 # 43 - 43
+                    [nombreRemi] => Maria Gomez Torres
+                    [documentoRemi] => 112846462
+                    [faxClien] => 
+                    [emailClien] => 
+                    [telefono2Clien] => 
+                    [telefonoClien] => 734563478
+                    [direccionClien] => CLL 12 - 34 # 56
+                    [nombreClien] => PRUEBA TARIFA CONVENIO RANGOS
+                    [documentoClien] => 2147483647
+                    [clase] => Credito
+                    [despachada] => Planillada
+                    [tipo_despacho] => 
+                    [novedad] => 
+                    [cedula_recibio2] => 
+                    [recibido2] => 
+                    [observaciones_recibio] => 
+                    [fecha_recibio] => 
+                    [telefono_recibido] => 
+                    [sello] => 
+                    [cargo_recibido] => 
+                    [cedula_recibio] => 
+                    [recibio] => 
+                    [reempaque] => 
+                    [despacho] => 
+                    [virtual] => 
+                    [fecha_virtual] => 
+                    [usuario_confirm] => 
+                    [fecha_confirm] => 
+                    [destinoNombre] => MEDELLIN
+                    [origenNombre] => MEDELLIN
+                    [remesa2] => 113
+                )
+
+        )
+
+)
+
+2015-05-19 13:45:56 LogName: Array
+(
+    [0] => Array
+        (
+            [Venta] => Array
+                (
+                    [id] => 3
+                    [usuario_escan] => 
+                    [fecha_escan] => 
+                    [oficina] => 1
+                    [remesa] => 11-3
+                    [facturacion] => 
+                    [documento1] => 123132
+                    [documento2] => 
+                    [documento3] => 
+                    [tipo] => Factura
+                    [cliente] => 157
+                    [remitente] => 
+                    [destinatario] => 
+                    [contacto] => 
+                    [contacto_tel] => 
+                    [origen] => 1
+                    [destino] => 1
+                    [imagen] => 
+                    [firmado] => Si
+                    [observaciones] => 
+                    [contenido] => CUADERNOS
+                    [fecha] => 2015-03-02
+                    [hora] => 16:17:48
+                    [declarado] => 500000
+                    [empaque_info] => {"barras":["",""],"empaques":["3","2"],"cantidad":["5","2"],"largo":["200","200"],"ancho":["100","100"],"alto":["100","100"],"peso":["50","20"],"pesoVol":["4000","1600"],"valor":["2700","1900"],"kiloAd":["10","5"],"subtotal":null}
+                    [kilo_adic] => 5540
+                    [valor_kilo_adic] => 831000
+                    [desc_flete] => 1730
+                    [desc_kilo] => 124650
+                    [valor_seguro] => 
+                    [valor_devolucion] => 
+                    [valor_total] => 722820
+                    [kilo_nego] => 60
+                    [usuario] => 2
+                    [recaudador] => 
+                    [otro_remi] => 
+                    [faxDest] => 
+                    [emailDest] => 
+                    [telefono2Dest] => 
+                    [telefonoDest] => 32023112131
+                    [direccionDest] => Cra 45 # 45 - 45
+                    [nombreDest] => Luis Lozano Marin
+                    [documentoDest] => 132486431021
+                    [emailRemi] => mgt@gmail.com
+                    [celularRemi] => 3001234567
+                    [telefonoRemi] => 
+                    [direccionRemi] => Cll 43 # 43 - 43
+                    [nombreRemi] => Maria Gomez Torres
+                    [documentoRemi] => 112846462
+                    [faxClien] => 
+                    [emailClien] => 
+                    [telefono2Clien] => 
+                    [telefonoClien] => 734563478
+                    [direccionClien] => CLL 12 - 34 # 56
+                    [nombreClien] => PRUEBA TARIFA CONVENIO RANGOS
+                    [documentoClien] => 2147483647
+                    [clase] => Credito
+                    [despachada] => Planillada
+                    [tipo_despacho] => 
+                    [novedad] => 
+                    [cedula_recibio2] => 
+                    [recibido2] => 
+                    [observaciones_recibio] => 
+                    [fecha_recibio] => 
+                    [telefono_recibido] => 
+                    [sello] => 
+                    [cargo_recibido] => 
+                    [cedula_recibio] => 
+                    [recibio] => 
+                    [reempaque] => 
+                    [despacho] => 
+                    [virtual] => 
+                    [fecha_virtual] => 
+                    [usuario_confirm] => 
+                    [fecha_confirm] => 
+                    [destinoNombre] => MEDELLIN
+                    [origenNombre] => MEDELLIN
+                    [remesa2] => 113
+                )
+
+        )
+
+)
+
+2015-05-19 13:47:03 LogName: Array
+(
+    [0] => Array
+        (
+            [Venta] => Array
+                (
+                    [id] => 3
+                    [usuario_escan] => 
+                    [fecha_escan] => 
+                    [oficina] => 1
+                    [remesa] => 11-3
+                    [facturacion] => 
+                    [documento1] => 123132
+                    [documento2] => 
+                    [documento3] => 
+                    [tipo] => Factura
+                    [cliente] => 157
+                    [remitente] => 
+                    [destinatario] => 
+                    [contacto] => 
+                    [contacto_tel] => 
+                    [origen] => 1
+                    [destino] => 1
+                    [imagen] => 
+                    [firmado] => Si
+                    [observaciones] => 
+                    [contenido] => CUADERNOS
+                    [fecha] => 2015-03-02
+                    [hora] => 16:17:48
+                    [declarado] => 500000
+                    [empaque_info] => {"barras":["",""],"empaques":["3","2"],"cantidad":["5","2"],"largo":["200","200"],"ancho":["100","100"],"alto":["100","100"],"peso":["50","20"],"pesoVol":["4000","1600"],"valor":["2700","1900"],"kiloAd":["10","5"],"subtotal":null}
+                    [kilo_adic] => 5540
+                    [valor_kilo_adic] => 831000
+                    [desc_flete] => 1730
+                    [desc_kilo] => 124650
+                    [valor_seguro] => 
+                    [valor_devolucion] => 
+                    [valor_total] => 722820
+                    [kilo_nego] => 60
+                    [usuario] => 2
+                    [recaudador] => 
+                    [otro_remi] => 
+                    [faxDest] => 
+                    [emailDest] => 
+                    [telefono2Dest] => 
+                    [telefonoDest] => 32023112131
+                    [direccionDest] => Cra 45 # 45 - 45
+                    [nombreDest] => Luis Lozano Marin
+                    [documentoDest] => 132486431021
+                    [emailRemi] => mgt@gmail.com
+                    [celularRemi] => 3001234567
+                    [telefonoRemi] => 
+                    [direccionRemi] => Cll 43 # 43 - 43
+                    [nombreRemi] => Maria Gomez Torres
+                    [documentoRemi] => 112846462
+                    [faxClien] => 
+                    [emailClien] => 
+                    [telefono2Clien] => 
+                    [telefonoClien] => 734563478
+                    [direccionClien] => CLL 12 - 34 # 56
+                    [nombreClien] => PRUEBA TARIFA CONVENIO RANGOS
+                    [documentoClien] => 2147483647
+                    [clase] => Credito
+                    [despachada] => Planillada
+                    [tipo_despacho] => 
+                    [novedad] => 
+                    [cedula_recibio2] => 
+                    [recibido2] => 
+                    [observaciones_recibio] => 
+                    [fecha_recibio] => 
+                    [telefono_recibido] => 
+                    [sello] => 
+                    [cargo_recibido] => 
+                    [cedula_recibio] => 
+                    [recibio] => 
+                    [reempaque] => 
+                    [despacho] => 
+                    [virtual] => 
+                    [fecha_virtual] => 
+                    [usuario_confirm] => 
+                    [fecha_confirm] => 
+                    [destinoNombre] => MEDELLIN
+                    [origenNombre] => MEDELLIN
+                    [remesa2] => 113
+                )
+
+        )
+
+)
+

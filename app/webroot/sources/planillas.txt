@@ -1,0 +1,1 @@
+{"aaData":[["1","2015-07-13","Representante","NECOCLI","123","10,000","ENTREGA ",""],["2","2015-09-01","Representante","NECOCLI","1","10,000","ANTICIPO",""],["3","2015-09-01","Representante","NECOCLI","1","10,000","ANTICIPO",""],["4","2015-09-21","Representante","YARUMAL","1212","5,000","DESPACHO",""]]}

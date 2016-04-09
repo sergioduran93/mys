@@ -1,0 +1,2358 @@
+2015-09-27 19:02:54 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/UploadHandler.php, line 1290]
+Trace:
+UploadHandler::post() - APP/Controller/UploadHandler.php, line 1290
+UploadHandler::initialize() - APP/Controller/UploadHandler.php, line 147
+UploadHandler::__construct() - APP/Controller/UploadHandler.php, line 131
+VentasController::upload() - APP/Controller/VentasController.php, line 1287
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-27 19:02:54 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/UploadHandler.php, line 1290]
+Trace:
+UploadHandler::post() - APP/Controller/UploadHandler.php, line 1290
+UploadHandler::initialize() - APP/Controller/UploadHandler.php, line 147
+UploadHandler::__construct() - APP/Controller/UploadHandler.php, line 131
+VentasController::upload() - APP/Controller/VentasController.php, line 1287
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-27 19:03:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mys/img/escaner/7178.png
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-27 19:03:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mys/img/escaner/7178.png
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-27 19:07:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mys/img/escaner/7178.png
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-28 17:22:41 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-28 18:07:29 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 17:27:34 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 17:43:37 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:00:04 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:20 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:26 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:17:36 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:18:55 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 18:35:19 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:11:31 Error: [MissingTableException] Table conceptos for model Concepto was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'conceptos',
+  'class' => 'Concepto',
+  'ds' => 'default',
+)
+Request URL: /mys/contables/egresos
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Model/Model.php(3243): Model->setSource('conceptos')
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Model/Model.php(1664): Model->getDataSource()
+#2 /home/mandaryservir/public_html/mys/app/Controller/ContablesController.php(20): Model->save(Array)
+#3 [internal function]: ContablesController->egresos()
+#4 /home/mandaryservir/public_html/mys/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ContablesController), Array)
+#5 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ContablesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-09-29 19:11:31 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-09-29 19:11:31 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/contables/egresos
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 19:15:14 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:16:21 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:17:53 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-29 19:18:07 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-30 15:03:26 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-30 18:27:46 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-09-30 22:43:37 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-01 14:17:08 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:35 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-02 18:25:40 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:03:29 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:14:38 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:15:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaController.php, line 80]
+Trace:
+VentasContraentregaController::crear() - APP/Controller/VentasContraentregaController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:17:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCredicontadoController.php, line 78]
+Trace:
+VentasCredicontadoController::crear() - APP/Controller/VentasCredicontadoController.php, line 78
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:18:39 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialController.php, line 84]
+Trace:
+VentasEspecialController::crear() - APP/Controller/VentasEspecialController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-05 17:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:31:11 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:32:41 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasRepreController.php, line 97]
+Trace:
+VentasRepreController::crear() - APP/Controller/VentasRepreController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:39:35 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:10 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:40:57 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasEspecialRepreController.php, line 82]
+Trace:
+VentasEspecialRepreController::crear() - APP/Controller/VentasEspecialRepreController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasContraentregaRepreController.php, line 80]
+Trace:
+VentasContraentregaRepreController::crear() - APP/Controller/VentasContraentregaRepreController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 14:58:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 15:37:28 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/AppController.php, line 130]
+Trace:
+AppController::generateJSON() - APP/Controller/AppController.php, line 130
+DespachosController::crear2() - APP/Controller/DespachosController.php, line 344
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 15:53:27 Error: [MissingViewException] View file "/home/mandaryservir/public_html/mys/app/View/Recibos/juridica_repre.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mandaryservir/public_html/mys/app/View/Recibos/juridica_repre.ctp',
+)
+Request URL: /mys/recibos/juridicaRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RecibosController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-06 15:53:27 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-10-06 15:53:27 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/recibos/juridicaRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-06 15:54:14 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-06 15:54:29 Error: [MissingViewException] View file "/home/mandaryservir/public_html/mys/app/View/Recibos/natural_repre.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mandaryservir/public_html/mys/app/View/Recibos/natural_repre.ctp',
+)
+Request URL: /mys/recibos/naturalRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RecibosController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-06 15:54:29 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-10-06 15:54:29 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/recibos/naturalRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-07 10:08:53 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 10:16:09 Error: Fatal Error (1): Class 'XTCPDF' not found in [/home/mandaryservir/public_html/mys/app/View/Facturas/imprimir.ctp, line 5]
+2015-10-07 10:16:09 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/facturas/imprimir/7
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'XTCPDF' ...', '/home/mandaryse...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XTCPDF' ...', '/home/mandaryse...', 5, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'XTCPDF' ...', '/home/mandaryse...', 5, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-07 10:25:48 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 17:09:00 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:02:01 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:29:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 183]
+Trace:
+VentasCreditoController::clientes() - APP/Controller/VentasCreditoController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-07 18:54:08 Error: [MissingViewException] View file "/home/mandaryservir/public_html/mys/app/View/Recibos/natural_repre.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mandaryservir/public_html/mys/app/View/Recibos/natural_repre.ctp',
+)
+Request URL: /mys/recibos/naturalRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RecibosController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-07 18:54:08 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-10-07 18:54:08 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/recibos/naturalRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-07 18:54:23 Error: [MissingViewException] View file "/home/mandaryservir/public_html/mys/app/View/Recibos/juridica_repre.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mandaryservir/public_html/mys/app/View/Recibos/juridica_repre.ctp',
+)
+Request URL: /mys/recibos/juridicaRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RecibosController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-07 18:54:23 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-10-07 18:54:23 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/recibos/juridicaRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-07 19:28:58 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 09:18:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 15:09:37 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-08 15:15:13 Error: [MissingViewException] View file "/home/mandaryservir/public_html/mys/app/View/Recibos/juridica_repre.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mandaryservir/public_html/mys/app/View/Recibos/juridica_repre.ctp',
+)
+Request URL: /mys/recibos/juridicaRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RecibosController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-08 15:15:13 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-10-08 15:15:13 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/recibos/juridicaRepre
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-08 16:35:18 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-09 10:46:03 Error: [MissingActionException] Action UsersController::path() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'path',
+)
+Request URL: /mys/users/path/to/font-awesome/css/font-awesome-ie7.min.css
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mandaryservir/public_html/mys/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/mandaryservir/public_html/mys/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-09 10:46:03 Error: Fatal Error (64): Cannot redeclare class PHPExcel_IOFactory in [/home/mandaryservir/public_html/mys/app/Vendor/excel_writer/Classes/PHPExcel/IOFactory.php, line 46]
+2015-10-09 10:46:03 Error: [InternalErrorException] Internal Server Error
+Request URL: /mys/users/path/to/font-awesome/css/font-awesome-ie7.min.css
+Stack Trace:
+#0 /home/mandaryservir/public_html/mys/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/mandaryse...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#2 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/mandaryse...', 46, Array)
+#3 /home/mandaryservir/public_html/mys/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-11 16:58:40 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:00:06 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 562]
+Trace:
+VentasController::movCliente() - APP/Controller/VentasController.php, line 562
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:00:06 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 562]
+Trace:
+VentasController::movCliente() - APP/Controller/VentasController.php, line 562
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:05:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:07:38 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:08:12 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoController.php, line 92]
+Trace:
+VentasCreditoController::crear() - APP/Controller/VentasCreditoController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-11 17:11:39 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:04:10 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:04:45 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:05:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasController.php, line 717]
+Trace:
+VentasController::crear() - APP/Controller/VentasController.php, line 717
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 09:08:54 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::logout() - APP/Controller/UsersController.php, line 411
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 16:28:36 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-13 17:19:13 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/mandaryservir/public_html/mys/app/Controller/VentasCreditoRepreController.php, line 94]
+Trace:
+VentasCreditoRepreController::crear() - APP/Controller/VentasCreditoRepreController.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2015-10-16 14:16:39 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'JqImgcropComponent' does not have a method 'beforeRedirect' in [/home/mandaryservir/public_html/mys/lib/Cake/Utility/ObjectCollection.php, line 132]
+Trace:
+ObjectCollection::trigger() - CORE/Cake/Utility/ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 761
+UsersController::login() - APP/Controller/UsersController.php, line 320
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+

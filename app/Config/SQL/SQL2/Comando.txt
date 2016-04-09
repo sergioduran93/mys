@@ -1,0 +1,1 @@
+cake -app "C:\wamp\www\wamp\mys2\app" AclExtras.AclExtras aco_sync

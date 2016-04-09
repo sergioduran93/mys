@@ -1,0 +1,45 @@
+#Destinos {
+	background-color: #eee;
+}
+
+td {
+	padding: 10px;
+	line-height: 1.4;
+	text-align: center;
+	border: 1px solid #fff;
+	background-color: #f9f9f9;
+}
+
+
+#Destinos .sheet0 .row0 .s{
+	background-color: #428bca;
+	color: #fff;
+	text-align: center;
+}
+
+#Convenios .sheet0 .row0 .column0,
+#Convenios .sheet0 .row1 .column0,
+#Convenios .sheet0 .row2 .column0,
+#Convenios .sheet0 .row3 .column0,
+#Convenios .sheet0 .row4 .column0,
+#Convenios .sheet0 .row5 .column0,
+#Convenios .sheet0 .row8 .s
+{
+	background-color: #428bca;
+	color: #fff;
+	text-align: center;
+}
+
+#Descuentos .sheet0 .row0 .column0,
+#Descuentos .sheet0 .row1 .column0,
+#Descuentos .sheet0 .row2 .column0,
+#Descuentos .sheet0 .row3 .column0,
+#Descuentos .sheet0 .row4 .column0,
+#Descuentos .sheet0 .row5 .column0,
+#Descuentos .sheet0 .row7 .s,
+#Descuentos .sheet0 .row8 .s
+{
+	background-color: #428bca;
+	color: #fff;
+	text-align: center;
+}
