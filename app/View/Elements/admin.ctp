@@ -175,6 +175,28 @@
 <li class="dropdown menuP">
 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Facturación<b class="caret"></b></a>
 	<ul class="dropdown-menu">
+	<li class="dropdown-submenu">
+	<a tabindex="-1" href="#">Facturación</a>
+			<ul class="dropdown-menu">
+		<li>
+			<?php echo $this->Html->link('Facturar',array('controller'=>'facturas','action'=>'crear')); ?>
+		</li>
+		<li>
+			<?php echo $this->Html->link('Lista de Facturas',array('controller'=>'facturas','action'=>'listafacturas')); ?>
+		</li>
+		</ul>
+		</li>
+		<li class="dropdown-submenu">
+		<a tabindex="-1" href="#">Relacion Facturación</a>
+			<ul class="dropdown-menu">
+		<li>
+			<?php echo $this->Html->link('Relacion Facturación',array('controller'=>'ventas','action'=>'relacionfacturas')); ?>
+		</li>
+		<li>
+			<?php echo $this->Html->link('Lista de Relaciones',array('controller'=>'relacionfacturas','action'=>'listarelaciones')); ?>
+		</li>
+		</ul>
+		</li>
 		<li>
 			<?php echo $this->Html->link('Cuentas contables',array('controller'=>'cuentas','action'=>'crear')); ?>
 		</li>
@@ -184,9 +206,8 @@
 		<li>
 			<?php echo $this->Html->link('Ingresos',array('controller'=>'contables','action'=>'ingresos')); ?>
 		</li>
-		<li>
-			<?php echo $this->Html->link('Facturación',array('controller'=>'facturas','action'=>'crear')); ?>
-		</li>
+		
+		
 	</ul>
 </li>
 <li class="dropdown menuP">

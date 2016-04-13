@@ -50,9 +50,13 @@ class UsersController extends AppController {
 	    $group =& $this->User->Role;
 		$group->id = 1;
 		$this->Acl->allow($group, 'controllers');
+		//
+		$this->Acl->allow($group, 'controllers/Ventas/relacionfacturas');
 
 		$group->id = 2;
 		$this->Acl->allow($group, 'controllers');
+		$this->Acl->allow($group, 'controllers/Ventas/relacionfacturas');
+		//
 		$this->Acl->allow($group, 'controllers/Clientes/crear');
 		$this->Acl->deny($group,  'controllers/Departamentos/editarDepartamento');
 		$this->Acl->deny($group,  'controllers/Departamentos/editarRegion');
