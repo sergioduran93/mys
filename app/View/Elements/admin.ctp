@@ -33,8 +33,15 @@
 				<li><?php echo $this->Html->link('Vehiculos Negociación',array('controller'=>'vehiculos','action'=>'negociacion')); ?></li>
 			</ul>
 		</li>
-		<li>
-			<?php echo $this->Html->link('Representantes',array('controller'=>'Representantes','action'=>'crear')); ?>
+		<li class="dropdown-submenu">
+			<a tabindex="-1" href="#">Representantes</a>
+			<ul class="dropdown-menu">
+				<li><?php echo $this->Html->link('Crear Representantes',array('controller'=>'representantes','action'=>'crear')); ?></li>
+				<li><?php echo $this->Html->link('Lista Cuentas',array('controller'=>'representantes','action'=>'listacuentas')); ?></li>
+				<li><?php echo $this->Html->link('Lista Representantes',array('controller'=>'representantes','action'=>'listarepresentantes')); ?></li>
+				<li><?php echo $this->Html->link('Credito',array('controller'=>'creditos','action'=>'nuevo')); ?></li>
+				<!--<li><?php echo $this->Html->link('Historial Credito',array('controller'=>'creditos','action'=>'nuevo')); ?></li>-->
+			</ul>
 		</li>
 		<li>
 			<?php echo $this->Html->link('Transportadoras y agencias',array('controller'=>'transportadoras','action'=>'crear')); ?>

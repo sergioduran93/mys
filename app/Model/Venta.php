@@ -11,7 +11,7 @@ class Venta extends AppModel {
 	public function getVenta($remesa = null) {
 		return $this->query("SELECT id FROM ventas AS Venta WHERE REPLACE(Venta.remesa,'-','') = '".$remesa."' LIMIT 1");
 	}
-
+	public $belongsTo = array('Relacionfactura');
 	public function beforeDelete(){
 		$this->request->data['Venta']['kilo_adic']        = str_replace(".",",",str_replace(",","",$this->data['Venta']['kilo_adic']));
 		$this->request->data['Venta']['valor_kilo_adic']  = str_replace(".",",",str_replace(",","",$this->data['Venta']['valor_kilo_adic']));
@@ -176,7 +176,22 @@ class Venta extends AppModel {
 		}
 		return $venta;
 	}
-
-
+/*
+public $hasMany = array(
+'Relacionfactura' => array(
+'className' => 'Relacionfactura',
+'foreignKey' => 'venta_id',
+'dependent' => false,
+'conditions' => '',
+'fields' => '',
+'order' => '',
+'limit' => '',
+'offset' => '',
+'exclusive' => '',
+'finderQuery' => '',
+'counterQuery' => ''
+)
+);
+*/
 }
 ?>

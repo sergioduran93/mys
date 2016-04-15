@@ -1,3 +1,4 @@
+
 <?php
 class Representante extends AppModel {
 	public $name = 'Representante';
@@ -10,8 +11,25 @@ class Representante extends AppModel {
 			'className'		=> 'Representantexdestino',
 			'foreignKey'	=> 'representante_id',
 			'dependent'		=> false
+			),
+		'Credito' => array(
+  		'className' => 'Credito',
+  		'foreignKey' => 'representante_id',
+  		'conditions' => '',
+  		'dependent' => false,
 		)
 	);
+	/*
+  public $hasMany = array(
+  	'Credito' => array(
+  		'className' => 'Credito',
+  		'foreignKey' => 'representante_id',
+  		'conditions' => '',
+  		'depend' => false,
 
+  		)
+
+  	);
+  	*/
 }
 ?>
