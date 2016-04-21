@@ -381,7 +381,7 @@ class VentasController extends AppController {
 				$comisionDigitar1 = 0;
 				$fletespagados = 0;
 			foreach ($reciboRepre as $key => $value) {
-				$informe['aaData'][] = array('Nro Recibo: '.$value['Recibo']['numero'],'',$value['Recibo']['fecha'],$value['Recibo']['flete'],'FLETES PAGADOS');
+			$informe['aaData'][] = array('Nro Recibo: '.$value['Recibo']['numero'],'',$value['Recibo']['fecha'],$value['Recibo']['flete'],'FLETES PAGADOS');
 			$fletespagados = $fletespagados + $value['Recibo']['flete'];
 			$comisionDigitar1 = $comisiondigitarEntrega + $comisionDigitarEspe + $comisionDigitar;
 			$totalpagar =  $comisionEntrega + $representante['Representante']['digitar'] + $comisionDigitar + $comisionDigitarEspe + $fletespagados + $comisiondigitarEntregaespe + $ventaContado + $comisionporescanearespe + $comisiondigitarEntrega;
