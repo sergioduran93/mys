@@ -67,7 +67,7 @@
 	</div>
 
 	<div class="table-responsive" style="width:97%;  !important">
-		<table class="table table-bordered table-striped">
+		<table class="table-responsive" id="tabla_id">
 		<thead>
 		<tr>
 				<th class="col-actions ui-state-focus" style="padding-right:13px;"><input class="search_init" type="text" placeholder="Buscar"><?php echo $this->Paginator->sort('NRO FACTURA'); ?></th>
@@ -109,6 +109,7 @@
  <!-- BOTONES IMPRIMIR -->
 
 </div>
+<!--
 <p><?php
 		echo $this->Paginator->counter(array(
 		'format' => __('Pagina {:page} de {:pages}, {:count} Facturas en Total')
@@ -119,6 +120,7 @@
 			<?php echo $this->Paginator->numbers(array('separator' => '', 'tag' => 'li', 'currentTag' => 'a', 'currentClass' => 'active')); ?>
 			<li> <?php echo $this->Paginator->next(__('Siguiente') . ' >>', array('tag' => false), null, array('class' => 'next disabled btn-primary')); ?> </li>
 		</ul>
+		-->
 	<?php echo $this->Js->writeBuffer(); ?>
 </div> 
 
@@ -195,7 +197,7 @@ $(document).ready(function(){
 	var countTot = 0;
 	oTable = $('#tabla_id').dataTable( {
 		"sDom": "R<'clear'><'H'lfr>t<'F'ip>",
-		"sAjaxSource": webroot+'sources/relacionfacturas.txt',
+		//"sAjaxSource": webroot+'sources/relacionfacturas.txt',
 		"sPaginationType": "two_button", // full_numbers (Paginas) two_button (Sin Paginas)
 		"oLanguage":
 			{

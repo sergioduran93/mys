@@ -44,9 +44,9 @@ class XTCPDF  extends TCPDF
         $this->SetFont('Times','B',11);
         $this->MultiCell(50, 1, "TIPO", 0, 'L', 0, 0, '20', '36', true);
         $this->MultiCell(50, 1, "DOC REF1", 0, 'L', 0, 0, '57', '36', true);
-        $this->MultiCell(50, 1, "FECHA", 0, 'L', 0, 0, '90', '36', true);
+        $this->MultiCell(50, 1, "FECHA", 0, 'L', 0, 0, '98', '36', true);
         $this->MultiCell(50, 1, "SALDO", 0, 'L', 0, 0, '130', '36', true);
-        $this->MultiCell(50, 1, "CONCEPTO", 0, 'L', 0, 0, '170', '36', true);
+        $this->MultiCell(50, 1, "CONCEPTO", 0, 'L', 0, 0, '165', '36', true);
 
         // Image($file, $x='', $y='', $w=0, $h=0, $type='', $link='', $align='', $resize=false, $dpi=300, $palign='', $ismask=false, $imgmask=false, $border=0, $fitbox=false, $hidden=false, $fitonpage=false)
     }

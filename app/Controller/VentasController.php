@@ -1,6 +1,6 @@
 <?php
 class VentasController extends AppController {
-	public $components = array('JqImgcrop','Util','Excel');
+	public $components = array('JqImgcrop','Util','Excel', 'RequestHandler');
 	public $name = 'Ventas';
 
 /******************							INFORMES 									********
@@ -194,7 +194,6 @@ class VentasController extends AppController {
 		$informe = array();
 		$representante = "";
 
-
 		if(!empty($this->data)){
 			$desde = $this->data['Venta']['desde'];
 			$hasta = $this->data['Venta']['hasta'].' 23:59:59';
@@ -210,7 +209,6 @@ class VentasController extends AppController {
 			$reempaRepre   = $this->Venta->importModel('Reempaque')->find('all',array('conditions'=>array('Reempaque.representante'=>$id,'Reempaque.fecha BETWEEN ? and ?' => array($desde, $hasta))));
 			$reciboRepre   = $this->Venta->importModel('Recibo')->find('all',array('conditions'=>array('Recibo.usuario'=>$userId,'Recibo.fecha BETWEEN ? and ?' => array($desde, $hasta))));
 			$representante = $this->Venta->importModel('Representante')->find('first',array('conditions'=>array('Representante.id'=>$id)));
-
 			$credito = $this->Venta->importModel('Credito')->find('first',array('conditions'=>array('Credito.id'=>$id)));
 
 			$comisionEntrega = 0;
@@ -221,12 +219,6 @@ class VentasController extends AppController {
    			$ventaContado = 0;
    			$totalpagar = 0;
 
-/*
-   			foreach ($credito as $key => $value) {
-   				$informe['aaData'][] = array('Credito: '.$value['Credito']['id'],'',$value['Credito']['prestamo'],$value['Credito']['abono'],'ABONO');
-   				$credito = $credito + $value['Credito']['abono'];
-   			}
-   			*/
 			foreach ($reempaRepre as $key => $value) {
 				$informe['aaData'][] = array('Reempaque: '.$value['Reempaque']['id'],'',$value['Reempaque']['fecha'],$value['Reempaque']['valor'],'COMISIÓN POR ENTREGA');
 				$comisionEntrega = $comisionEntrega + $value['Reempaque']['valor'];
@@ -237,19 +229,19 @@ class VentasController extends AppController {
 				if($value['Venta']['usuario_confirm'] == $userId){
 					if($value['Venta']['clase'] == 'Especial'){
 						$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$representante['Representante']['digitar_espe'],'COMISIÓN POR DIGITAR ENTREGA');
-					$comisiondigitarentregaespe = $comisiondigitarentregaespe + $representante['Representante']['digitar_espe'] + $comisiondigitarEntrega;
+						$comisiondigitarentregaespe = $comisiondigitarentregaespe + $representante['Representante']['digitar_espe'] + $comisiondigitarEntrega;
 					} else {
 						$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$representante['Representante']['digitar'],'COMISIÓN POR DIGITAR ENTREGA');
-					$comisiondigitarEntrega = $comisiondigitarEntrega + $representante['Representante']['digitar'] + $comisiondigitarentregaespe;
+						$comisiondigitarEntrega = $comisiondigitarEntrega + $representante['Representante']['digitar'] + $comisiondigitarentregaespe;
 					}
 				}
 				if($value['Venta']['usuario_escan'] == $userId){
 					if($value['Venta']['clase'] == 'Especial'){
 						$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$representante['Representante']['escanear_espe'],'COMISIÓN POR ESCANEAR');
-					$comisionporescanearespe = $comisionporescanearespe + $representante['Representante']['escanear_espe'];
+						$comisionporescanearespe = $comisionporescanearespe + $representante['Representante']['escanear_espe'];
 					} else {
 						$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$representante['Representante']['escanear'],'COMISIÓN POR ESCANEAR');
-					$comisionporEscanear = $comisionporEscanear + $representante['Representante']['escanear'];
+						$comisionporEscanear = $comisionporEscanear + $representante['Representante']['escanear'];
 					}
 				}
 				if($value['Venta']['recaudador'] == $id){
@@ -259,90 +251,89 @@ class VentasController extends AppController {
 					}
 					if($value['Venta']['clase']=="Contado"){
 						$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],'-'.$value['Venta']['valor_total'],'VENTA CONTADO');
-					$ventaContado = $ventaContado + $value['Venta']['valor_total'];
-					$totalpagar =  $comisionEntrega + $representante['Representante']['digitar'] + $comisionDigitar + $comisionDigitarEspe + $fletespagados + $comisiondigitarEntregaespe + $ventaContado + $comisionporescanearespe + $comisiondigitarEntrega;
+						$ventaContado = $ventaContado + $value['Venta']['valor_total'];
+						$totalpagar =  $comisionEntrega + $representante['Representante']['digitar'] + $comisionDigitar + $comisionDigitarEspe + $fletespagados + $comisiondigitarEntregaespe + $ventaContado + $comisionporescanearespe + $comisiondigitarEntrega;
 					}
 					
-
 					$empaquesInfo = json_decode($value['Venta']['empaque_info'],true);
 					$cantidad = 0;
 					$valor    = 0;
-					foreach ($empaquesInfo['empaques'] as $key2 => $value2) {
+			foreach ($empaquesInfo['empaques'] as $key2 => $value2) {
 						$cantidadU = floatval($empaquesInfo['cantidad'][$key2]);
 						$flag      = true;
-						if($flag){
+					if($flag){
 							if($value['Venta']['clase'] == "Especial"){
 								$flag2 = true;
-								if($value2 == '1'){
-									if($representante['Representante']['sobre_espe'] != ""){
+						if($value2 == '1'){
+							if($representante['Representante']['sobre_espe'] != ""){
 										$valor = $valor + (floatval($representante['Representante']['sobre_espe'])*$cantidadU);
 										$flag  = false;
 										$flag2 = false;
 									}
-								} else if($value2 == '2'){
-									if($representante['Representante']['paquete_espe'] != ""){
+						} else if($value2 == '2'){
+							if($representante['Representante']['paquete_espe'] != ""){
 										$valor = $valor + (floatval($representante['Representante']['paquete_espe'])*$cantidadU);
 										$flag  = false;
 										$flag2 = false;
 									}
-								} else if($value2 == '3'){
-									if($representante['Representante']['caja_espe'] != ""){
+						} else if($value2 == '3'){
+							if($representante['Representante']['caja_espe'] != ""){
 										$valor = $valor + (floatval($representante['Representante']['caja_espe'])*$cantidadU);
 										$flag  = false;
 										$flag2 = false;
 									}
 								}
-								if($flag2){
-									if($representante['Representante']['base_espe'] != ""){
+						if($flag2){
+							if($representante['Representante']['base_espe'] != ""){
 										$valor = $valor + (floatval($representante['Representante']['base_espe'])*$cantidadU);
 										$flag  = false;
 									}
 								}
 							}
 						}
-						if($flag){
+					if($flag){
 							$negoEmp = $this->Venta->importModel('Negociacion')->find('first',array('conditions'=>array('Negociacion.representante'=>$id,'Negociacion.clientes'=>$value['Venta']['cliente'])));
-							if(!empty($negoEmp)){
+						if(!empty($negoEmp)){
 								$flag2 = true;
-								if($value2 == '1'){
-									if($negoEmp['Negociacion']['sobre_clie'] != ""){
+						if($value2 == '1'){
+							if($negoEmp['Negociacion']['sobre_clie'] != ""){
 										$valor = $valor + (floatval($negoEmp['Negociacion']['sobre_clie'])*$cantidadU);
 										$flag  = false;
 										$flag2 = false;
 									}
-								} else if($value2 == '2'){
-									if($negoEmp['Negociacion']['paquete_clie'] != ""){
+						} else if($value2 == '2'){
+							if($negoEmp['Negociacion']['paquete_clie'] != ""){
 										$valor = $valor + (floatval($negoEmp['Negociacion']['paquete_clie'])*$cantidadU);
 										$flag  = false;
 										$flag2 = false;
 									}
-								} else if($value2 == '3'){
-									if($negoEmp['Negociacion']['caja_clie'] != ""){
+						} else if($value2 == '3'){
+							if($negoEmp['Negociacion']['caja_clie'] != ""){
 										$valor = $valor + (floatval($negoEmp['Negociacion']['caja_clie'])*$cantidadU);
 										$flag  = false;
 										$flag2 = false;
 									}
 								}
-								if($flag2){
+						if($flag2){
 									$valor = $valor + (floatval($negoEmp['Negociacion']['base_clie'])*$cantidadU);
 									$flag  = false;
 								}
 							}
 						}
-						if($flag){
+					if($flag){
 							$flag2 = true;
-							if($value2 == '1'){
-								if($representante['Representante']['sobre'] != ""){
+					if($value2 == '1'){
+						if($representante['Representante']['sobre'] != ""){
 									$valor = $valor + (floatval($representante['Representante']['sobre'])*$cantidadU);
 									$flag2 = false;
 								}
-							} else if($value2 == '2'){
-								if($representante['Representante']['paquete'] != ""){
+						} else if($value2 == '2'){
+							if($representante['Representante']['paquete'] != ""){
 									$valor = $valor + (floatval($representante['Representante']['paquete'])*$cantidadU);
 									$flag2 = false;
 								}
-							} else if($value2 == '3'){
-								if($representante['Representante']['caja'] != ""){
+						} else if($value2 == '3'){
+							if($representante['Representante']['caja'] != ""){
 									$valor = $valor + (floatval($representante['Representante']['caja'])*$cantidadU);
 									$flag2 = false;
 								}
@@ -357,34 +348,32 @@ class VentasController extends AppController {
 					$comisionDigitar = 0;
 					$comisionDigitarEspe = 0;
 					$rangos = json_decode($representante['Representante']['rangos'],true);
-					foreach ($rangos['datos'] as $key3 => $value3) {
-						if($value3['desde'] <= $cantidad && $cantidad <= $value3['hasta'] ){
+		foreach ($rangos['datos'] as $key3 => $value3) {
+					if($value3['desde'] <= $cantidad && $cantidad <= $value3['hasta'] ){
 							$valor = $valor - ($valor * (floatval($value3['porcentaje']/100)));
 						}
 					}
 					if($value['Venta']['usuario'] == $userId){
 						$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$valor,'COMISIÓN POR RECOGIDA');
 						$comisionRecogida = $comisionRecogida + $valor;
-						if($value['Venta']['clase'] == 'Especial'){
+					if($value['Venta']['clase'] == 'Especial'){
 							$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$representante['Representante']['digitar_espe'],'COMISIÓN POR DIGITAR');
-						$comisionDigitarEspe = $comisionDigitarEspe + $representante['Representante']['digitar_espe'] + $comisionDigitar;
-						} else {
+							$comisionDigitarEspe = $comisionDigitarEspe + $representante['Representante']['digitar_espe'] + $comisionDigitar;
+					} else {
 							$informe['aaData'][] = array('Remesa: '.$value['Venta']['remesa'],$value['Venta']['documento1'],$value['Venta']['fecha'].' '.$value['Venta']['hora'],$representante['Representante']['digitar'],'COMISIÓN POR DIGITAR');
 							$comisionDigitar = $comisionDigitar + $representante['Representante']['digitar'] + $comisionDigitarEspe;
 							$totalpagar =  $comisionEntrega + $representante['Representante']['digitar'] + $comisionDigitar + $comisionDigitarEspe + $fletespagados + $comisiondigitarEntregaespe + $ventaContado + $comisionporescanearespe + $comisiondigitarEntrega;
 						}
 					}
-
 				}				
 			}
-
 				$comisionDigitar1 = 0;
 				$fletespagados = 0;
-			foreach ($reciboRepre as $key => $value) {
-			$informe['aaData'][] = array('Nro Recibo: '.$value['Recibo']['numero'],'',$value['Recibo']['fecha'],$value['Recibo']['flete'],'FLETES PAGADOS');
-			$fletespagados = $fletespagados + $value['Recibo']['flete'];
-			$comisionDigitar1 = $comisiondigitarEntrega + $comisionDigitarEspe + $comisionDigitar;
-			$totalpagar =  $comisionEntrega + $representante['Representante']['digitar'] + $comisionDigitar + $comisionDigitarEspe + $fletespagados + $comisiondigitarEntregaespe + $ventaContado + $comisionporescanearespe + $comisiondigitarEntrega;
+		foreach ($reciboRepre as $key => $value) {
+				$informe['aaData'][] = array('Nro Recibo: '.$value['Recibo']['numero'],'',$value['Recibo']['fecha'],$value['Recibo']['flete'],'FLETES PAGADOS');
+				$fletespagados = $fletespagados + $value['Recibo']['flete'];
+				$comisionDigitar1 = $comisiondigitarEntrega + $comisionDigitarEspe + $comisionDigitar;
+				$totalpagar =  $comisionEntrega + $representante['Representante']['digitar'] + $comisionDigitar + $comisionDigitarEspe + $fletespagados + $comisiondigitarEntregaespe + $ventaContado + $comisionporescanearespe + $comisiondigitarEntrega;
 			}
 
 			$informe['comisionEntrega'] = $comisionEntrega;
@@ -400,23 +389,22 @@ class VentasController extends AppController {
 			$informe['comisionRecogida'] = $comisionRecogida;
 			$informe['totalpagar'] = $totalpagar;
 
-			
-
 		    if($this->data['Venta']['imprimir'] != ""){
 				$this->autoRender = false;
 				$this->imprimircuenrepre($informe, $this->data['Venta']['representante'], $this->data['Venta']['desde'], $this->data['Venta']['hasta'], $this->data['Venta']['fecha']);
 			}
 		$representantes = $this->Venta->importModel('Representante')->find('list',array('conditions'=>array('Representante.id >'=>1)));
 		$cuentarepresentantes = $this->Venta->importModel('Cuentarepresentante')->find('list',array('conditions'=>array('id')));
+		$factura = $this->Venta->importModel('Factura')->find('first',array('conditions'=>array('Factura.id'=>$facturaId)));
 		
-		$this->set(compact('representantes','desde','hasta', 'cuentarepresentantes'));
+		$this->set(compact('representantes', 'credito', 'factura','desde','hasta', 'cuentarepresentantes'));
 		}
 		APP::import('Utility','File');
 		$file = new File(WWW_ROOT.'/sources/cuenta_repre.txt',true);
 		$file->write(json_encode($informe));
 		$file->close();
 		$representantes = $this->Venta->importModel('Representante')->find('list');
-		$this->set(compact('representantes','desde','hasta'));
+		$this->set(compact('representantes', 'credito', 'factura','desde','hasta'));
 	}
 	
 	public function merConfirmada() {
@@ -1992,9 +1980,7 @@ class VentasController extends AppController {
 		$this->set(compact('desde'));
 
 	}
-
-
-
+	
 	public function reliquidar(){
 		$user     = $this->Auth->user();
 		$ventas   = $this->Venta->find('all',array('recursive'=>-1,'conditions'=>array('Venta.lista'=>0,'Venta.oficina'=>'7')));
@@ -2090,10 +2076,11 @@ class VentasController extends AppController {
 		$this->set(compact('recibo','cantidadCheck','costoDevol','costoSeguro','empaques','data','empaque_info'));
 	}
 
-	public function imprimircuenrepre($informe = null, $repreId = null, $desde = null, $hasta =null, $fecha =null, $id = null){
-		$this->log($informe);
-		$empaques = $this->Venta->importModel('Empaque')->find('list');
-			
+	public function imprimircuenrepre($informe = null, $repreId = null, $desde = null, $hasta =null, $fecha =null, $id = null, $cuentarepre_id = null){
+			$this->log($informe);
+			$empaques = $this->Venta->importModel('Empaque')->find('list');
+
+    		$creditos = $this->Venta->importModel('Credito')->find('list');
 			$cuentarepreModel = $this->Venta->importModel('Cuentarepresentante');
 
 			$user         = $this->Auth->user();
@@ -2101,20 +2088,23 @@ class VentasController extends AppController {
 			$cuentaNueva['Cuentarepresentante']['fecha'] = date("Y-m-d");
 			//$cuentaNueva['Cuentarepresentante']['usuario'] = $user['id'];
 			$cuentaNueva['Cuentarepresentante']['representante_id'] = $repreId;
-			
+
 			$cuentarepreModel->save($cuentaNueva);
 
 			$guiasEnCuenta = array();
-	
-			$factura = $this->Venta->importModel('Factura')->find('first',array('conditions'=>array('Factura.id'=>$facturaId)));
-
+		foreach ($informe as $key => $value) {
+				$informe[$key]['Venta']['impresion'] = $this->imprimir($value['Venta']['id'], 1,1,0,0,true);//llama a la funcion imprimir
+				$guiasEnCuenta[] = $value['Venta']['id'];
+	}
+			$this->Venta->updateAll(array('Venta.cuentarepre_id' => $cuentarepreModel->id),array('Venta.id' => $guiasEnCuenta));
+			
 		$representante = $this->Venta->importModel('Representante')->find('first',array('conditions'=>array('id'=>$repreId)));
-		$this->set(compact('informe','desde','hasta','representante','fecha', 'cuentaNueva', 'representante'));
+		$this->set(compact('informe','desde','hasta','representante','fecha', 'cuentaNueva', 'representante', 'creditos'));
 		$this->render('imprimircuenrepre');
 
 	}
 
-public function relacionfacturas(){
+	public function relacionfacturas(){
 	    $post    = true;
 		$desde   = date("Y-m-d");
 		$hasta   = date("Y-m-d");
@@ -2122,45 +2112,112 @@ public function relacionfacturas(){
 		$cliente = "";
         
 		if(!empty($this->data)){
-			
 			$desde    = $this->data['Venta']['desde'];
 			$hasta    = $this->data['Venta']['hasta'].' 23:59:59';
 			$cliente  = $this->data['Venta']['cliente'];
 			$ventas   = $this->Venta->find('all',array('conditions'=>array('Venta.fecha BETWEEN ? and ?' => array($desde, $hasta) , 'Venta.cliente' => $cliente ,'Venta.relacionfactura_id' => null)));
-			//$this->log($ventas);
-			$this->generateJSON('relacionfacturas', $ventas, array('Venta' => array('remesa','documento1','fecha','origenNombre','destinoNombre','nombreDest','destinatario','cantidad','declarado','desc_flete','kilo_adic','desc_kilo','valor_total','valor_devolucion','valor_total')));
-			}
 
-		//$this->log($this->data['Venta']['imprimir']);
+			$this->generateJSON('relacionfacturas', $ventas, array('Venta' => array('remesa','documento1','fecha','origenNombre','destinoNombre','nombreDest','destinatario','cantidad','declarado','desc_flete','kilo_adic','desc_kilo','valor_total','valor_devolucion','valor_total')));
+		}
 		if($this->data['Venta']['imprimir'] != ""){
 			$this->autoRender = false;
 			$this->imprimirelacionfact($ventas, $this->data['Venta']['cliente'], $this->data['Venta']['desde'], $this->data['Venta']['hasta'], $this->data['Venta']['fecha']);
 		}
-
-		$clientes = $this->Venta->importModel('Cliente')->find('list',array('conditions'=>array('Cliente.id >'=>1)));
-		$this->set(compact('clientes','desde','hasta'));
+			$clientes = $this->Venta->importModel('Cliente')->find('list',array('conditions'=>array('Cliente.id >'=>1)));
+			$facturas = $this->Venta->importModel('Factura')->find('first',array('conditions'=>array('Factura.id'=>$facturaId)));
+			$this->set(compact('clientes','facturas','desde','hasta'));
 	
-		if ($this->request->data['procesar'] == 'procesar')
-	{
-
+		if ($this->request->data['procesar'] == 'procesar'){
 		return $this->redirect(array('controller' => 'relacionfacturas', 'action' => 'add'));
-	}
+		}
 	}
 
-	public function imprimirelacionfact ($informe = null, $clienId = null, $facturaId = null, $desde = null, $hasta =null, $fecha =null, $id =null, $relacionfactura_id =null){
+	public function reimprimir_relacion($relacion_id = null, $clienId = null){
+		$desde   = date("Y-m-d");
+		$hasta   = date("Y-m-d");
+		$cliente = "";
+		$documento = $cliente['Cliente']['documento'];
+		$relacionNueva = $this->Venta->importModel('Relacionfactura')->find('first',array('conditions'=>array('Relacionfactura.id'=>$relacion_id)));
+		$informe = $this->Venta->find('all',array('conditions'=>array('relacionfactura_id'=>$relacion_id)));
+		$cliente = $this->Venta->importModel('Cliente')->find('first',array('conditions'=>array('Cliente.nombres')));
+		foreach ($informe as $key => $value) {
+			$informe[$key]['Venta']['impresion'] = $this->imprimir($value['Venta']['id'], 1,0,0,0,true);//llama a la funcion imprimir
+			$empaqueInfo = json_decode($value['Venta']['empaque_info'], true);
+			$suma     =0;
+			$vlrFlete    =0;
+		foreach ($empaqueInfo['cantidad'] as $key2 => $value2) {
+				$suma  = $suma + $value2;
+				$vlrFlete = $vlrFlete + ($empaqueInfo['valor'][$key2]*$value2);
+			}
+			$informe[$key]['Venta']['cantidad'] =$suma;
+			$informe[$key]['Venta']['vlrFlete'] =$vlrFlete;
+			$total += floatVal($informe[$key]['Venta']['valor_total']);
+
+			if(count($empaqueInfo['empaques']) > 1){
+				$informe[$key]['Venta']['empaque'] = 'Otros';
+			}else {
+				$informe[$key]['Venta']['empaque'] = $empaques[$empaqueInfo['empaques'][0]];
+			}
+		}
+		
+		$this->set(compact('relacionNueva','informe','desde','hasta','cliente', 'fecha', 'documento', 'total', 'factura'));
+		$this->render('imprimirelacionfact');
+	}
+
+	public function imprimirelacionfact ($informe = null, $clienId = null, $desde = null, $hasta =null, $fecha =null, $id =null, $relacionfactura_id =null){
 			$empaques = $this->Venta->importModel('Empaque')->find('list');
 			$venta               = $this->Venta->read(null,$id);
-    		$this->log($informe);
 			$relacionModel = $this->Venta->importModel('Relacionfactura');
+			$facturasModel = $this->Venta->importModel('Factura');
 
+			$user         = $this->Auth->user();
+			$relacionNueva['Relacionfactura']['dni'] = floatval($relacionModel->find('count')) +  1;
+			$relacionNueva['Relacionfactura']['fecha'] = date("Y-m-d");
+			$relacionNueva['Relacionfactura']['desde'] = date("Y-m-d");
+			$relacionNueva['Relacionfactura']['hasta'] = date("Y-m-d");
+			$relacionNueva['Relacionfactura']['usuario'] = $user['id'];
+			$relacionNueva['Relacionfactura']['cliente_id'] = $clienId;
+			$relacionNueva['Relacionfactura']['estado'] = 0;
+
+			$relacionModel->save($relacionNueva);
+			$guiasEnRelacion = array();
+			$total = 0;
+			foreach ($informe as $key => $value) {
+				$informe[$key]['Venta']['impresion'] = $this->imprimir($value['Venta']['id'], 1,0,0,0,true);//llama a la funcion imprimir
+				$guiasEnRelacion[] = $value['Venta']['id'];
+				$empaqueInfo = json_decode($value['Venta']['empaque_info'], true);
+				$suma     =0;
+				$vlrFlete    =0;
+			foreach ($empaqueInfo['cantidad'] as $key2 => $value2) {
+					$suma  = $suma + $value2;
+					$vlrFlete = $vlrFlete + ($empaqueInfo['valor'][$key2]*$value2);
+				}
+				$informe[$key]['Venta']['cantidad'] =$suma;
+				$informe[$key]['Venta']['vlrFlete'] =$vlrFlete;
+				$total += floatVal($informe[$key]['Venta']['valor_total']);
+
+				if(count($empaqueInfo['empaques']) > 1){
+					$informe[$key]['Venta']['empaque'] = 'Otros';
+				}else {
+					$informe[$key]['Venta']['empaque'] = $empaques[$empaqueInfo['empaques'][0]];
+				}
+			}
+			$this->Venta->updateAll(array('Venta.relacionfactura_id' => $relacionModel->id),array('Venta.id' => $guiasEnRelacion));
+			$cliente = $this->Venta->importModel('Cliente')->find('first',array('conditions'=>array('id'=>$clienId)));
+			$this->set(compact('relacionNueva','informe','desde','hasta','cliente', 'fecha', 'total', 'factura'));
+			$this->render('imprimirelacionfact');
+	}
+
+	public function imprimirlotedeguias ($informe = null, $clienId = null, $desde = null, $hasta =null, $fecha =null, $id =null, $relacionfactura_id =null){
+			$empaques = $this->Venta->importModel('Empaque')->find('list');
+			$venta               = $this->Venta->read(null,$id);
+			$relacionModel = $this->Venta->importModel('Relacionfactura');
 			$user         = $this->Auth->user();
 			$relacionNueva['Relacionfactura']['dni'] = floatval($relacionModel->find('count')) +  1;
 			$relacionNueva['Relacionfactura']['fecha'] = date("Y-m-d");
 			$relacionNueva['Relacionfactura']['usuario'] = $user['id'];
 			$relacionNueva['Relacionfactura']['cliente_id'] = $clienId;
 			$relacionNueva['Relacionfactura']['estado'] = 0;
-		
-			$relacionModel->save($relacionNueva);
 
 			$guiasEnRelacion = array();
 			foreach ($informe as $key => $value) {
@@ -2169,7 +2226,7 @@ public function relacionfacturas(){
 				$empaqueInfo = json_decode($value['Venta']['empaque_info'], true);
 				$suma     =0;
 				$vlrFlete    =0;
-				foreach ($empaqueInfo['cantidad'] as $key2 => $value2) {
+			foreach ($empaqueInfo['cantidad'] as $key2 => $value2) {
 					$suma  = $suma + $value2;
 					$vlrFlete = $vlrFlete + ($empaqueInfo['valor'][$key2]*$value2);
 				}
@@ -2183,71 +2240,29 @@ public function relacionfacturas(){
 				}
 			}
 			$this->Venta->updateAll(array('Venta.relacionfactura_id' => $relacionModel->id),array('Venta.id' => $guiasEnRelacion));
-
 			$cliente = $this->Venta->importModel('Cliente')->find('first',array('conditions'=>array('id'=>$clienId)));
-			$factura = $this->Venta->importModel('Factura')->find('first',array('conditions'=>array('Factura.id'=>$facturaId)));
-
-			$this->set(compact('relacionNueva','informe','desde','hasta','cliente', 'fecha', 'total', 'factura'));
-			$this->render('imprimirelacionfact');
-	}
-
-	public function imprimirlotedeguias ($informe = null, $clienId = null, $desde = null, $hasta =null, $fecha =null, $id =null, $relacionfactura_id =null){
-		$empaques = $this->Venta->importModel('Empaque')->find('list');
-			$venta               = $this->Venta->read(null,$id);
-
-			$relacionModel = $this->Venta->importModel('Relacionfactura');
-			
-			$guiasEnRelacion = array();
-			foreach ($informe as $key => $value) {
-				$informe[$key]['Venta']['impresion'] = $this->imprimir($value['Venta']['id'], 1,0,0,0,true);
-				$guiasEnRelacion[] = $value['Venta']['id'];
-				$empaqueInfo = json_decode($value['Venta']['empaque_info'], true);
-				$suma     =0;
-				$vlrFlete    =0;
-				foreach ($empaqueInfo['cantidad'] as $key2 => $value2) {
-					$suma  = $suma + $value2;
-					$vlrFlete = $vlrFlete + ($empaqueInfo['valor'][$key2]*$value2);
-				}
-				$informe[$key]['Venta']['cantidad'] =$suma;
-				$informe[$key]['Venta']['vlrFlete'] =$vlrFlete;
-
-				if(count($empaqueInfo['empaques']) > 1){
-					$informe[$key]['Venta']['empaque'] = 'Otros';
-				}else {
-					$informe[$key]['Venta']['empaque'] = $empaques[$empaqueInfo['empaques'][0]];
-				}
-			}
-			$this->Venta->updateAll(array('Venta.relacionfactura_id' => $relacionModel->id),array('Venta.id' => $guiasEnRelacion));
-			
-			$cliente = $this->Venta->importModel('Cliente')->find('first',array('conditions'=>array('id'=>$clienId)));
-			
 			$this->set(compact('relacionNueva','informe','desde','hasta','cliente', 'fecha', 'total', 'factura'));
 			$this->render('imprimirlotedeguias');
 	}
 
-
     public function imprimirfacturarel ($facturaId){
-		$factura = $this->Venta->importModel('Factura')->find('first',array('conditions'=>array('Factura.id'=>$facturaId)));
-		$this->log($factura);
-		
-		$this->set(compact('factura'));
-	}
-	    public function imprimirelacioncliente ($clienteId){
-		$factura = $this->Venta->importModel('Cliente')->find('first',array('conditions'=>array('cliente.id'=>$facturaId)));
-		$this->log($cliente);
-		$this->set(compact('cliente'));
-
+			$factura = $this->Venta->importModel('Factura')->find('first',array('conditions'=>array('Factura.id'=>$facturaId)));
+			$this->log($factura);
+			$this->set(compact('factura'));
 	}
 
-	public function listarelaciones()
-	{
-		$relacionfactura = $this->Venta->importModel('Relacionfactura')->find('all');
+	public function imprimirelacioncliente ($clienteId){
+			$factura = $this->Venta->importModel('Cliente')->find('first',array('conditions'=>array('cliente.id'=>$clienteId)));
+			$this->log($cliente);
+			$this->set(compact('cliente'));
+	}
 
-		if(!empty($this->data)){
-			$relacionfactura   = $this->Venta->importModel('Relacionfactura')->find('all');
-			$this->generateJSON('listarelaciones', $relacionfactura, array('Relacionfactura' => array('id','cliente_id','fecha','estado')));
+	public function listarelaciones(){
+			$relacionfactura = $this->Venta->importModel('Relacionfactura')->find('all');
+				if(!empty($this->data)){
+					$relacionfactura   = $this->Venta->importModel('Relacionfactura')->find('all');
+					$this->generateJSON('listarelaciones', $relacionfactura, array('Relacionfactura' => array('id','cliente_id','fecha','estado')));
+	}
 }
 }
-}
-
 ?>

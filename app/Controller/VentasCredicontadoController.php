@@ -244,6 +244,78 @@ class VentasCredicontadoController extends AppController {
 	//	$this->render(); 
 	}
 
+	public function movCredicontado() {
+		$desde    = date("Y-m-d");
+		$hasta    = date("Y-m-d");
+		$clientes = $this->VentaCredicontado->importModel('Cliente')->find('list',array('fields'=>array('Cliente.listNombre'),'recursive'=>-1,'conditions'=>array('Cliente.id >'=>1)));
+		$clienteD = $this->VentaCredicontado->importModel('Cliente')->find('list',array('fields'=>array('Cliente.documento'),'recursive'=>-1,'conditions'=>array('Cliente.id >'=>1)));
+		$clienteT = $this->VentaCredicontado->importModel('Cliente')->find('all',array('fields'=>array('Cliente.id','Cliente.direccion','Cliente.telefono','Cliente.email'),'recursive'=>-1,'conditions'=>array('Cliente.id >'=>1)));
+	
+		if(!empty($this->data)){
+			$desde    = $this->data['VentaCredicontadoVentaCredicontado']['desde'];
+			$hasta    = $this->data['VentaCredicontado']['hasta'].' 23:59:59';
+			$ventas   = $this->VentaCredicontado->find('all',array('conditions'=>array('VentaCredicontado.fecha BETWEEN ? and ?' => array($desde, $hasta))));
+			$empaques = $this->VentaCredicontado->importModel('Empaque')->find('list');
+			$oficinas = $this->VentaCredicontado->importModel('Oficina')->find('list',array('fields'=>array('Oficina.nombre')));
+			foreach ($ventas as $key => $value) {
+				$empaqueInfo = json_decode($value['VentaCredicontado']['empaque_info'], true);
+				$suma        = 0;
+				$vlrFlete    = 0;
+				foreach ($empaqueInfo['cantidad'] as $key2 => $value2) {
+					$suma     = $suma + $value2;
+					$vlrFlete = $vlrFlete + ($empaqueInfo['valor'][$key2]*$value2);
+				}
+				$ventas[$key]['VentaCredicontado']['cantidad'] = $suma;
+				$ventas[$key]['VentaCredicontado']['vlrFlete'] = $vlrFlete;
 
+				if(count($empaqueInfo['empaques']) > 1){
+					$ventas[$key]['VentaCredicontado']['empaque'] = 'Otros';
+				} else {
+					$ventas[$key]['VentaCredicontado']['empaque'] = $empaques[$empaqueInfo['empaques'][0]];
+				}
+				if(is_numeric($value['VentaCredicontado']['despachada'])){
+					$ventas[$key]['VentaCredicontado']['despachada'] = 'En: '.$oficinas[$value['VentaCredicontado']['despachada']];
+				}
+				
+				if(!empty($value['VentaCredicontado']['reempaque'])){
+					$reem = $this->VentaCredicontado->importModel('Reempaque')->find('first',array('conditions'=>array('Reempaque.id'=>$value['VentaCredicontado']['reempaque'])));
+					$reem = explode(" ",$reem['Reempaque']['fecha']);
+					$ventas[$key]['VentaCredicontado']['fecha_des'] = $reem[0];
+				}
+			}
+			
+			$this->generateJSON('mov_credicontado', $ventas, array('VentaCredicontado' => array('id','documentoClien','remesa','destino','remitente','destinatario','empaque_info','','valor_total','fecha','fecha_des','documento1')));
+		}
+		
+		$this->set(compact('desde','hasta','clientes','clienteD','clienteT'));
+	}
+	public function enviarMovCredicontado(){
+		App::uses('CakeEmail', 'Network/Email');
+		$this->layout = "empty";
+		if(!empty($this->data)){
+			if(empty($this->data['VentaCredicontado']['desde'])){
+				$fileName = $this->ExcelWrite->movCliente(json_decode($this->data['VentaCredicontado']['informe'],true));
+				$email = new CakeEmail('gmail');
+				$email->to($this->data['VentaCredicontado']['email']);
+				$email->subject($this->data['VentaCredicontado']['asunto']);
+				$email->attachments(array('Informe Mov x Cliente.xlsx' => 'informes/'.$fileName));
+				//$email->replyTo('webmaster@mys.com');
+				$email->from ('teban.unal@gmail.com');
+				$email->send($this->data['VentaCredicontado']['msg']);
+				unlink('informes/'.$fileName);
+			}
+		}
+		return json_encode($this->data);
+	}
+	public function downMovCredicontado(){
+		$this->autoRender = false;
+		$file = $this->ExcelWrite->movCliente(json_decode($this->data['VentaCredicontado']['informe'],true));
+		return $file;
+	}
+	public function printMovCredicontado(){
+		$this->layout = "empty";
+		$info = json_decode($this->data['VentaCredicontado']['informe'],true);
+		$this->set(compact('info'));
+	}
 }
 ?>

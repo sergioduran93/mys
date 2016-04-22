@@ -9,8 +9,14 @@ class Relacionfactura extends AppModel {
 			'className'		=> 'Venta',
 			'foreignKey'	=> 'relacionfactura_id',
 			'dependent'		=> false
+		)
+		/*
+		'Factura' => array(
+			'className'		=> 'Venta',
+			'foreignKey'	=> 'total_id',
+			'dependent'		=> false
 		),
-		'Factura'
+		*/
 	);
 	public $belongsTo = array('Cliente');
 

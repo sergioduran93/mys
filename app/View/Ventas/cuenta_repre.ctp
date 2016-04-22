@@ -50,6 +50,7 @@
 	<div><h3><center>CUENTA REPRESENTANTES</center></h3></div>
     <fieldset>
 	<?php echo $this->Form->create('Venta',array('class'=>'form-inline'));?>
+	<?php echo $this->Form->input('imprimir',array('type'=>'hidden','default'=>"")); ?>
 	<?php echo $this->Form->input('informe',array('type'=>'hidden')); ?>
 	<div class="form-group col-md-12">
 		<div class="col-md-3"><?php echo $this->Form->input('desde',array('label'=>'Desde: ','type'=>'text','placeholder'=>'AAAA-MM-DD','default'=>$desde)); ?></div>
@@ -91,6 +92,12 @@
 	<div>
 </center>
 
+<br>
+<button type="button" id="btn-imprimir" class="btn btn-primary btn-block">IMPRIMIR</button>
+	<?php echo $this->Form->end();?>
+</br>
+
+</div>
 <script>
 	var webroot  = <?php echo "'".Router::url('/')."app/webroot/'"; ?>;
 	var url      = <?php echo "'".Router::url('/')."ventas'"; ?>;
@@ -121,7 +128,36 @@ $(document).ready(function(){
 			}
 		}
 	);
+	$("#imprimir").click(function(){
+		var infoTable   = oTable._('tr', {"filter": "applied"});
+		var columnArray = new Array();
+		$.each(oTable.fnSettings().aoColumns, function( key, value ) {
+			columnArray.push(value.sTitle);
+		});
+		infoTable.unshift(columnArray);
+		$("#VentaInforme").val(JSON.stringify(infoTable));
+		$.ajax({
+			type: "POST",
+			cache: false,
+			url: url+"/printDespachoRepre",
+			data: $("#VentaDespachoRepreForm").serializeArray(),
+			success: function (data) {
+				$.fancybox(data, {
+				    padding : 5,
+					width : "1000",
+					height: "700",
+				    openEffect: 'none',
+				    closeEffect: 'none'
+				});
+			}
+		}); 
+	});
 
+
+	$("#btn-imprimir").click(function(){
+		$("#VentaImprimir").val("SI");
+		$("#VentaCuentaRepreForm").submit();
+	});
 	$("#VentaDesde").datepicker();
 	$("#VentaHasta").datepicker();
 	$("#VentaRepresentante").chosen({

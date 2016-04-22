@@ -48,7 +48,7 @@
 		<?php echo $this->Form->input('id',array('type'=>'hidden')); ?>
 		<div class="form-group col-md-12">
 			<div class="col-md-6"><?php echo $this->Form->input('oficina',array('label'=>'Oficina: ','type'=>'select','options'=>$oficinas,'empty'=>'')); ?></div>
-			<div class="col-md-6"><?php echo $this->Form->input('region',array('label'=>'Region: ','type'=>'select','options'=>$regiones,'empty'=>'')); ?></div>
+			<div class="col-md-6"><?php echo $this->Form->input('region',array('label'=>'Region: ','type'=>'select','options'=>$regiones,'order'=>'Regiones.nombre', 'empty'=>'')); ?></div>
 		</div>
 		<div class="form-group col-md-12">
 			<div class="col-md-12"><?php echo $this->Form->input('observaciones',array('label'=>'Observaciones: ','type'=>'text')); ?></div>

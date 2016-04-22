@@ -45,6 +45,8 @@
 		
 		<p><strong>Nro Relacion: </strong><?php echo $relacionfactura['Relacionfactura']['id']; ?></p>
 		<p><strong>Cliente: </strong><?php echo $relacionfactura['Relacionfactura']['cliente_id']; ?></p>
+		<p><strong>Fecha Relacion: </strong><?php echo $relacionfactura['Relacionfactura']['desde']; ?></p>
+		<p><strong>Fecha Relacion: </strong><?php echo $relacionfactura['Relacionfactura']['hasta']; ?></p>
 		<p><strong>Fecha Relacion: </strong><?php echo $relacionfactura['Relacionfactura']['fecha']; ?></p>
 		<p><strong>Valor Relacion:   </strong><?php echo $factura['Factura']['valor']; ?></p>
 		<p><strong>Estado:    </strong><?php echo $relacionfactura['Relacionfactura']['estado']; ?></p>

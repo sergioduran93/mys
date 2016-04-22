@@ -53,7 +53,7 @@ class AppController extends Controller {
     }
     
     public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
+        //$this->Auth->allow('index', 'view');
         $this->set('session', $this->Auth->loggedIn());
         $user = $this->Auth->user();
         $this->set('usuario_actual', $user);
@@ -75,7 +75,7 @@ class AppController extends Controller {
         }
         //Este metodo habilita las acciones para ser ingresadas desde cualquier usuario
         //Nota: en produccion comentar esta linea
-        //$this->Auth->allow();
+        $this->Auth->allow();
 
         $this->Auth->authorize = array(
             'Controller',

@@ -51,6 +51,14 @@
 		<div><h3><center>FACTURACIÓN</center></h3></div>
 	    <div class="form-group col-md-12">
        		<div class="col-md-9"><?php echo $this->Form->input('relacionfactura_id',array('label'=>'Relación: ','type'=>'select','options'=>$relaciones,'class'=>'form-control','data-bv-notempty'=>'true')); ?></div>
+       		<div class="form-group col-md-12">
+			<div class="col-md-4"><?php echo $this->Form->input('cliente',array('label'=>'Nombre: ','type'=>'text','readonly'=>'readonly')); ?></div>
+			<div class="col-md-4"><?php echo $this->Form->input('clienteD',array('label'=>'Documento: ','type'=>'text','readonly'=>'readonly')); ?></div>
+			<div class="col-md-4"><?php echo $this->Form->input('telefono',array('label'=>'Telefono: ','type'=>'text','readonly'=>'readonly')); ?></div>
+		</div>
+		<div class="form-group col-md-12">
+			<div class="col-md-6"><?php echo $this->Form->input('direccion',array('label'=>'Dirección: ','type'=>'text','readonly'=>'readonly')); ?></div>
+			<div class="col-md-6"><?php echo $this->Form->input('email',array('label'=>'Email: ','type'=>'text','readonly'=>'readonly')); ?></div>
 		</div>
 		
 		</br>
@@ -66,7 +74,14 @@
 
 
 <script>
-
+	var clienteT = <?php echo json_encode($clienteT); ?>;
+	var webroot  = <?php echo "'".Router::url('/')."app/webroot/'"; ?>;
+	var url      = <?php echo "'".Router::url('/')."Facturas'"; ?>;
+	var countUni = 0;
+	var countFle = 0;
+	var countSeg = 0;
+	var countTot = 0;
+	var oTable ;
 
 $(document).ready(function(){
 /*
@@ -93,5 +108,27 @@ $(document).ready(function(){
 
 
 })
+	$("#Factura").change(function(){
+		var clienSel = $(this).val();
+		if(clienSel == ""){
+			oTable.fnFilter("",2);
+			$("#VentaTelefono").val("");
+			$("#VentaDireccion").val("");
+			$("#VentaEmail").val("");
+		} else {
+			$.each(clienteT, function( key, value ) {
+				if(value.Cliente.id == clienSel){
+					$("#FacturaTelefono").val(value.Cliente.telefono);
+					$("#FacturaDireccion").val(value.Cliente.direccion);
+					$("#FacturaEmail").val(value.Cliente.email);
+				}
+			});
+		}
+		
+		oTable.fnFilter($("#Factura option:selected").text(), 3);
+		//$("#VentaClienteD").val(clienSel);
+		//$("#VentaClienteD").trigger("chosen:updated");
+
+	});
 
 </script>

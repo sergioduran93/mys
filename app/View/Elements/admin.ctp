@@ -174,6 +174,7 @@
 		<li><?php echo $this->Html->link('Movilización x Cliente',array('controller'=>'Ventas','action'=>'movCliente')); ?></li>
 		<li><?php echo $this->Html->link('Movilización x Transportadora',array('controller'=>'Ventas','action'=>'movJuridica')); ?></li>
 		<li><?php echo $this->Html->link('Movilización x Conductor',array('controller'=>'Ventas','action'=>'movNatural')); ?></li>
+		<li><?php echo $this->Html->link('Movilización Credicontado',array('controller'=>'VentasCredicontado','action'=>'movCredicontado')); ?></li>
 		<li><?php echo $this->Html->link('Despachos para el Representante',array('controller'=>'Ventas','action'=>'despachoRepre')); ?></li>
 		<li><?php echo $this->Html->link('Despachos x Representante',array('controller'=>'Ventas','action'=>'despachoXRepre')); ?></li>
 		<li><?php echo $this->Html->link('Mercancia Confirmada',array('controller'=>'Ventas','action'=>'merConfirmada')); ?></li>
@@ -190,6 +191,9 @@
 		</li>
 		<li>
 			<?php echo $this->Html->link('Lista de Facturas',array('controller'=>'facturas','action'=>'listafacturas')); ?>
+		</li>
+		<li>
+			<?php echo $this->Html->link('Lista de Cartera',array('controller'=>'facturas','action'=>'listacartera')); ?>
 		</li>
 		</ul>
 		</li>

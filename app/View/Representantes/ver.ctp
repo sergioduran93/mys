@@ -74,7 +74,7 @@
 			<?php endforeach; ?>
 -->
 <div class="table-responsive" style="width:97%;  !important">
-		<table class="table table-bordered table-striped">
+		<table class="table table-bordered table-striped" id="tabla_id">
 				<thead>
 					<tr>
 				
@@ -107,10 +107,6 @@
 		<div class="col col-sm-12">
 		<div class="pull-right tr">
 
-		<span class="total">Total Deuda:</span>
-		<span id="total" class="total">
-		$ <?php echo $total_creditos; ?>
-		</span>
 				</thead>
 				<tbody style="text-align:center">
 
@@ -124,5 +120,7 @@
 			<?php
 echo $this->Html->link('Volver a Lista de Representantes', array('controller' => 'representantes', 'action' => 'listarepresentantes', array('class' => 'btn btn-success')));
 ?>
+
+
 </p>
 

@@ -58,6 +58,7 @@ $telefonoR    = $envio['telefonoR'];
 $contactoR    = $envio['contactoR'];
 $contactoTelR = $envio['contactoTelR'];
 $leyenda      = "";
+
 for ($i=0; $i < $n; $i++) { 
 	$tipoHoja = $hoja[$i];
 	$pdf->SetMargins(0, 0, 0, 0);
